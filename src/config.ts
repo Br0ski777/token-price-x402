@@ -34,6 +34,42 @@ Do NOT use for stock prices -- use finance_get_stock_price instead. Do NOT use f
         },
         required: ["token"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "token": {
+              "type": "string",
+              "description": "Token identifier"
+            },
+            "currency": {
+              "type": "string",
+              "description": "Price currency"
+            },
+            "price": {
+              "type": "number",
+              "description": "Current price"
+            },
+            "change24h": {
+              "type": "number",
+              "description": "24h price change percent"
+            },
+            "marketCap": {
+              "type": "number",
+              "description": "Market capitalization"
+            },
+            "volume24h": {
+              "type": "number",
+              "description": "24h trading volume"
+            },
+            "timestamp": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "token",
+            "price"
+          ]
+        },
     },
   ],
 };
