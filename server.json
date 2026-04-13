@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Br0ski777/token-price",
+  "title": "Token Price API",
+  "description": "Real-time crypto token prices — price, 24h change, market cap, volume. x402 micropayment.",
+  "version": "1.0.0",
+  "websiteUrl": "https://github.com/Br0ski777/token-price-x402",
+  "repository": {
+    "url": "https://github.com/Br0ski777/token-price-x402",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://token-price-x402-production.up.railway.app/mcp"
+    }
+  ]
+}
