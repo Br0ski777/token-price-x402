@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `finance_get_token_price` | POST | `/api/price` | $0.001 | Get real-time crypto token price with 24h change, market cap, and volume |
+| `finance_get_token_price` | POST | `/api/price` | $0.003 | Get real-time crypto token price with 24h change, market cap, and volume |
 
 ### `finance_get_token_price`
 
