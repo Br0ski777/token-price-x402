@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/price",
-      price: "$0.001",
+      price: "$0.003",
       description: "Get real-time crypto token price with 24h change, market cap, and volume",
       toolName: "finance_get_token_price",
       toolDescription: `Use this when you need the current price of any cryptocurrency or token. Returns real-time market data in JSON.
